@@ -47,7 +47,6 @@ class AzureGraphGateway {
 
 
 
-
     val groupsFromGraph: List<GroupDto>?
         @Throws(Throwable::class)
         get() {

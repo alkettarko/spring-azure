@@ -8,7 +8,5 @@ import lombok.Data
 class UserHelpDto {
 
     var value: List<UserDto>? = null
-        set(value) {
-            field = this.value
-        }
+
 }

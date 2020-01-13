@@ -6,8 +6,7 @@ import lombok.Data
 @Data
 @JsonIgnoreProperties(ignoreUnknown = true)
 class GroupHelpDto {
+
     var value: List<GroupDto>? = null
-        set(value) {
-            field = this.value
-        }
+
 }
